@@ -4,11 +4,11 @@
 
 PyBer, a python-based ride-sharing company, has hired us as data analysts to help improve access to ride-sharing services and determine affordability for underserved neighborhoods.
 
-After conducting a series of analysis on the ride-sharing data, V. Isualize has requested we: 
+After conducting a series of analysis on the ride-sharing data, PyBer's CEO V. Isualize has requested we: 
 
 * present a summary DataFrame of the ride-sharing data by city type. 
 * present a multiple-line graph that shows the total weekly fares for each city type.
-*  report how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+* report how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
 ## Methodology
 
@@ -16,7 +16,7 @@ Using *jupyter notebook*, we inspected the data contained in the *city_data.csv*
 
 Using the *Pandas*, *Numpy* and *Matplotlib* libraries, we conducted our preliminary analysis, producing several charts and plots which are included in the accompanying *analysis* folder to this report.
 
-We also used the *pivot* and *datetime* methods to re-arrange the data and resample the dates by week, after confirming that the the data type was in the correct format, as shown in the section of code highlighted below.
+We also used the *pivot* and *datetime* methods to re-arrange the data and resample the dates by week, after confirming that the data type was in the correct format, as shown in the section of code highlighted below.
 
 ![Check date format.](Resources/Check_Datetime_Index.png)
 
@@ -32,7 +32,7 @@ The following presents the requested ride-sharing summary DataFrame, showing for
 
 ![PyBer summary df](Resources/PyBer_Summary_DF.png)
 
-In addition to the summary DataFrame, below is a line graph showing weekly total fare by city types for the first four months of 2019, from the beginning of january through the end of april.
+In addition to the summary DataFrame, below is a line graph showing weekly total fare by city types for the first four months of 2019, from the beginning of January through the end of April.
 
 ![Line chart.](analysis/PyBer_fare_summary.png)
 
@@ -43,8 +43,8 @@ From the summary DataFrame and line graph presented above, it is evident that th
 
 Rural cities, and to a lesser degree suburban cities, are being underserved in terms of number of drivers, causing the average fare per ride and fare per driver to be much higher. 
 
-Based on our findings, we are presenting the following recommendations in order to address these disparities:
+Based on our findings, we are presenting the following recommendations to address these disparities:
 
-* Launch a hiring initiave for drivers in rural and suburban cities.
+* Launch a hiring initiative for drivers in rural and suburban cities.
 * Provide incentives for drivers in overserved urban cities to relocate to underserved rural and suburban cities.
 * Provide an incentive fare structure for drivers when servicing rides originating in one city type and ending in another city type (ex. urban to rural or suburban to urban, etc.).
